@@ -166,6 +166,9 @@ let NERDTreeShowHidden=1
 " Let quit work as expected if after entering :q the only window left open is NERD Tree itself
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" Auto refresh NERD tree when new files are created
+let g:NERDTreeAutoRefresh = 1
+
 " Use deocomplete.
 "let g:deoplete#enable_at_startup = 1
 " Use smartcase.

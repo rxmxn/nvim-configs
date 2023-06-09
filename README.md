@@ -2,7 +2,7 @@
 
 ## Changing ``nvim`` configurations 
 
-Add these aliases to your ``.bashrc``:
+Add these aliases to your ``.bashrc`` or `.zshrc`:
 
 ```
 alias vim=nvim
